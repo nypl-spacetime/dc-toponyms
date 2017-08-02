@@ -1,0 +1,25 @@
+{
+  "name": "etl-dc-toponyms",
+  "version": "0.0.1",
+  "description": "Toponyms and landmark names, extracted from photos from Digital Collections",
+  "main": "dc-toponyms.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nypl-spacetime/etl-dc-toponyms.git"
+  },
+  "scripts": {
+    "test": "standard",
+    "readme": "spacetime-generate-etl-readme ./ -o README.md"
+  },
+  "devDependencies": {
+    "spacetime-generate-etl-readme": "^0.1.5",
+    "standard": "^8.4.0"
+  },
+  "author": "Bert Spaan",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^6.7.1",
+    "highland": "^2.10.5",
+    "ramda": "^0.23.0"
+  }
+}
